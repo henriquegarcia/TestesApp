@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="user-scalable=no,initial-scale = 1.0,maximum-scale = 1.0">
+  <title>Sistema Acadêmico de Ensino</title>
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="fontello/css/fontello-embedded.css">
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/pt_BR.js"></script>
+  
+
+  <script type="text/javascript" src="js/agendamentos.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+tr:active, tr:hover{
+  /*background-color: transparent !important;*/
+}
+  </style>
+</head>
+
+<body id="tela">
+  <nav>
+    <div class="nav-wrapper light-blue ">
+      <a id="nomeSecao" href="#" class="brand-logo"></a>
+      <ul id="nav-mobile" class="right side-nav">
+        <li><a href="index.html" class="secaoInicio"><i class="icon-doc"></i> Inicio</a></li>
+        <li><a href="#" class="secaoNotas"><i class="icon-pencil"></i>Nota</a></li>
+        <li><a href="#" class="secaoAgendamento"><i class="icon-calendar"></i>Agendamento</a></li>
+        <li><a href="#" class="secaoFrequencias"><i class="icon-group"></i>Frequência</a></li>
+        <li><a href="#" class="secaoAvisos"><i class="icon-chat"></i>Avisos</a></li>
+      </ul>
+      <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+    </div>
+  </nav>
+
+  <div id="conteudo">
+    <div id="conteudoInicial">
+
+    <div class="row"><!-- DIV que agrupa cada card, abaixo são as divs de cada card -->
+
+        <div id="card01" class="col s6 m6 l6 waves-effect waves-lightblue darken-1 ">
+
+          <a class="secaoNotas" href="#">
+              <div class="card grey lighten-5 z-depth-1 valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-pencil"></i></div>
+                <div class="card-content center-align card-menu">
+                    <span class="black-text valign">
+                      Lançar Notas 
+                    </span>
+                </div>
+              </div>
+          </a> 
+
+        </div>
+
+        <div id="card02" class="col s6 m6 l6">
+
+          <a href="#!" class="secaoAgendamento">
+              <div class="card grey lighten-5 z-depth-1 valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-calendar"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Agendamentos
+                    </span>
+                </div>
+              </div>
+          </a> 
+
+        </div>
+
+        <div id="card03" class="col s6 m6 l6 ">
+
+          <a class="secaoFrequencias" href="#">
+            
+               <div class="card grey lighten-5 z-depth-1 valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-group"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Frequencia
+                    </span>
+                </div>
+              </div>
+          </a>    
+
+        </div>
+
+        <div id="card04" class="col s6 m6 l6">
+
+          <a class="secaoAvisos" href="#">
+             <div class="card grey lighten-5 z-depth-1 valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-chat"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Mural do Aluno
+                    </span>
+                </div>
+              </div>
+            
+          </a> 
+
+        </div>
+    
+
+
+  </div>
+          
+<!-- 
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <div class='row'>
+            <div class="col s6">
+              <div class="card blue valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-chat"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Mural do Aluno
+                    </span>
+                </div>
+              </div>
+            </div>
+             <div class="col s6">
+              <div class="card blue valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-chat"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Mural do Aluno
+                    </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class='row'>
+            <div class="col s4">
+              <div class="card blue valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-chat"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Mural do Aluno
+                    </span>
+                </div>
+              </div>
+            </div><div class="col s4">
+              <div class="card blue valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-chat"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Mural do Aluno
+                    </span>
+                </div>
+              </div>
+            </div><div class="col s4">
+              <div class="card blue valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-chat"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Mural do Aluno
+                    </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class='row'>
+            <div class="col s12">
+              <div class="card blue valign-wrapper">
+                <div class="card-title blue-text"> <i class="icon-chat"></i></div>
+                <div class="card-content valign card-menu">
+                    <span class="black-text ">
+                      Mural do Aluno
+                    </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        </ul>
+      </div>
+    </div> -->
+  </div>
+  <div id="conteudoNotas"></div>
+  <div id="conteudoAgendamentos" class= "collection"></div>
+    <div id="conteudoInterno"></div>
+    <div id="conteudoEditarAgendamentos"></div>
+    <div id="conteudoAddAgendamento"></div>
+  <div id="conteudoFrequencia"></div>
+  <div id="conteudoAvisos"></div>
+  
+
+  </div><!-- FIM da div.conteudo -->
+</body>
+</html>
